@@ -55,6 +55,7 @@ public class StockWatcher implements EntryPoint {
 			.create(StockService.class);
 
 	public void onModuleLoad() {
+		// SOME COOL CHANGES TO THE CODE
 		// Check login status using login service.
 		LoginServiceAsync loginService = GWT.create(LoginService.class);
 		loginService.login(GWT.getHostPageBaseURL(),
