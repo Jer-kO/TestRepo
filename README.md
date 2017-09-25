@@ -1,6 +1,5 @@
 TestRepo
 ========
-new change !!
 
 My test repo!
 change
